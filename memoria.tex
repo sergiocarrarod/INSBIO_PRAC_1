@@ -7,6 +7,11 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{csvsimple}
+\usepackage{tikz}
+\usepackage{filecontents}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -20,7 +25,7 @@
 Valencia, España \\
 scarrod@teleco.upv.es}
 \and
-\IEEEauthorblockN{2\textsuperscript{rd} Jorge Huertas Pastor}
+\IEEEauthorblockN{2\textsuperscript{nd} Jorge Huertas Pastor}
 \IEEEauthorblockA{\textit{Instrumentación Biomédica} \\
 \textit{Universitat Politècnica de València}\\
 Valencia, España \\
@@ -33,21 +38,95 @@ jorhuepa@teleco.upv.es}
 En esta práctica se ha trabajado alrededor del ECG. Caracterizando un dispositivo que realiza esta función y diseñando un programa en LabVIEW capaz de mostrar por pantalla tanto la señal del ECG realizado como las pulsaciones por minuto (ppm) que tiene la persona en cuestión.
 \end{abstract}
 
-\section{Introduction}
+\section{Introducción}
 Esta práctica se ha dividido en dos partes, una de ellas consiste en caracterizar un utilizado para la realización del ECG y posteriormente utilizado para la capatura de la señal mediante la placa NI myRIO y su muestra en el PC.
 
 \section{Amplificador de ECG}
 \subsection{Respuesta en frecuencia sin filtro notch}
+En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{desactivado}. 
+\newline
+
+\begin{figure}[htbp]
+    \begin{tikzpicture}
+        \begin{axis}[xmode=log, 
+            grid=both,
+            xlabel={$f$ (Hz)},
+            ylabel={G (dB)}]
+        \addplot table [x=f, y=g, col sep=comma] {g_sinNotch.csv};
+        \end{axis}
+        \end{tikzpicture}
+    \caption{Ganancia sin filtro notch}
+    \label{g_sinNotch}
+    \end{figure}
+
+En esta gráfica se puede observar la respuesta plana en la banda que estamos observando (desde los 0.5 Hz a los 100 Hz).
 
 \subsection{Respuesta en frecuencia con filtro notch}
+En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{activado}.
+\newline
+ 
+\begin{figure}[htbp]
+    \begin{tikzpicture}
+        \begin{axis}[xmode=log, 
+            grid=both,
+            xlabel={$f$ (Hz)},
+            ylabel={G (dB)}]
+        \addplot table [x=f, y=g, col sep=comma] {g_conNotch.csv};
+        \end{axis}
+        \end{tikzpicture}
+    \caption{Ganancia con filtro notch}
+    \label{g_conNotch}
+    \end{figure}
+
+Se observa que la tensión cae conforme la frecuencia toma valores cercanos a los 50 Hz, que es la componente que queremos eliminar y que nos introduce la red eléctrica.
+
+Podemos decir también que, observando la respuesta en frecuencia que tendría el integrado AD8232, se asemeja bastante.
 
 \subsection{Funcionamiento}
+Para mostrar su funcionamiento se han hecho unas capturas de pantalla al osciloscopio en el que se muestran la señal sin filtro notch y la señal con él, respectivamente.
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_sinNotch.jpeg}}
+    \caption{Señal sin el filtro notch funcionando}
+    \label{s_sinNotch}
+    \end{figure}
+
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \caption{Señal con el filtro notch funcionando}
+    \label{s_conNotch}
+    \end{figure}
+
+Se obvserva que la tensión pico-pico varía dependiendo de la señal que observemos. Sin el filtro notch vemos que ese valor es mayor debido al ruido.
 
 \section{Derivaciones electrocardiográficas estándar}
 \subsection{Derivación estándar I sin tercer electrodo}
+ 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \caption{D.E. I sin filtro notch}
+    \label{s_conNotch}
+    \end{figure}
+ 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \caption{D.E. I sin filtro notch}
+    \label{s_conNotch}
+    \end{figure}
 
 \subsection{Derivación estándar I con tercer electrodo}
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \caption{Señal con el filtro notch funcionando}
+    \label{s_conNotch}
+    \end{figure}
 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \caption{Señal con el filtro notch funcionando}
+    \label{s_conNotch}
+    \end{figure}
+    
 \section{Sistema de adquisición de señales electrocardiográficas}
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
 
