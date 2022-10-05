@@ -138,18 +138,22 @@ En los casos anteriores se estaba cerrando el circuito reposando la mano derecha
 En las siguientes dos figuras se puede observar el funcionamiento de la señal con el tercer electrodo, se puede observar que la señal es algo más clara que si no utilizamos electrodo, pues la resistencia entre el conector y la piel es menor si se hace uso del electrodo.
 
 Obviamente, si se pone en funcionamiento el filtro notch, la señal se ve sin el ruido que introduce la red eléctrica, como se observa en las dos imágenes que siguen.
-%\begin{figure}[H]
-%    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_SINnotch_aire.jpg}}
-%    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en el aire}
-%    \end{figure}
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_SINnotch.jpg}}
+    \caption{D.E. I con tercer electrodo, sin filtro notch, manos en rodillas}
+    \end{figure}
 
-%\begin{figure}[H]
-%    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_CONnotch.jpeg}}
-%    \caption{D.E. I con tercer electrodo, con filtro notch}
-%    \end{figure}
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_CONnotch.jpg}}
+    \caption{D.E. I con tercer electrodo, con filtro notch, manos en rodillas}
+    \end{figure}
 
 \subsubsection{Mesa}
 En este caso, si posicionamos las manos sobre la mesa, se observa como se introduce algo de ruido aún teniendo conectado el filtro notch.
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodoCONnotch_mesa}}
+	\caption{D.E. I con tercer electrodo, con filtro notch, manos en la mesa}
+	\end{figure}
     
 \section{Sistema de adquisición de señales electrocardiográficas}
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
@@ -200,4 +204,32 @@ Dado que no se estaba en el laboratorio cuando se terminó de diseñar este puls
     \end{figure}
 
 
+\begin{table}[H]
+\caption{20 primeras líneas del archivo de datos exportado}
+\begin{center}
+	\begin{tabular}
+	\hline
+	\textbf{Samples - X-Axis} & \textbf{Acceleration (g) - X-Axis} \\ \hline
+	979                       & 157715,00                          \\ \hline
+	980                       & 151367,00                          \\ \hline
+	981                       & 145996,00                          \\ \hline
+	982                       & 145020,00                          \\ \hline
+	983                       & 146484,00                          \\ \hline
+	984                       & 146484,00                          \\ \hline
+	985                       & 147461,00                          \\ \hline
+	986                       & 149902,00                          \\ \hline
+	987                       & 153809,00                          \\ \hline
+	988                       & 154785,00                          \\ \hline
+	989                       & 151855,00                          \\ \hline
+	990                       & 148438,00                          \\ \hline
+	991                       & 148926,00                          \\ \hline
+	992                       & 150391,00                          \\ \hline
+	993                       & 150391,00                          \\ \hline
+	994                       & 150879,00                          \\ \hline
+	995                       & 151367,00                          \\ \hline
+	996                       & 151367,00                          \\ \hline
+	997                       & 151855,00                          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 \end{document}

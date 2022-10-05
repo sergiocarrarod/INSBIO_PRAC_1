@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.22)  5 OCT 2022 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.22)  5 OCT 2022 20:23
 entering extended mode
-**c:/Users/Sergio/Desktop/INSTRU/INSBIO_PRAC_1/memoria.tex
-(c:/Users/Sergio/Desktop/INSTRU/INSBIO_PRAC_1/memoria.tex
+**./memoria.tex
+(memoria.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -14,7 +14,8 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountB=\count183
 \@IEEEtrantmpcountC=\count184
 \@IEEEtrantmptoksA=\toks16
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -29,42 +30,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 \IEEEquantizedlength=\dimen145
 \IEEEquantizedlengthdiff=\dimen146
 \IEEEquantizedtextheightdiff=\dimen147
@@ -105,21 +116,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen162
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count197
@@ -159,20 +174,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Program Files\MiKTeX\tex/latex/algorithms\algorithmic.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
@@ -182,26 +202,34 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count278
 \ALC@tlm=\skip53
 \algorithmicindent=\skip54
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
-) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -214,24 +242,39 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+)
+(C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen173
 \pgfutil@tempdimb=\dimen174
- (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box54
-) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
- (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen175
@@ -254,32 +297,58 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
 \pgf@sys@id@count=\count283
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count284
 \pgfsyssoftpath@bigbuffer@items=\count285
-) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen185
 \pgfmath@count=\count286
 \pgfmath@box=\box55
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
-) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count287
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen186
 \pgf@picmaxx=\dimen187
@@ -295,24 +364,32 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yy=\dimen197
 \pgf@zx=\dimen198
 \pgf@zy=\dimen199
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen256
 \pgf@path@lasty=\dimen257
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen258
 \pgf@shorten@start@additional=\dimen259
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
 \pgf@picture@serial@count=\count288
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen260
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen261
 \pgf@pt@y=\dimen262
@@ -321,7 +398,9 @@ File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -331,40 +410,58 @@ File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen265
 \pgf@sys@shading@range@num=\count289
 \pgf@shadingcount=\count290
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box59
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box60
-) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen266
 \pgf@nodesepend=\dimen267
-) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen268
 \pgffor@skip=\dimen269
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count291
 \pgfplotmarksize=\dimen270
@@ -392,23 +489,68 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@matrix@numberofcolumns=\count298
 )
 \tikz@expandcount=\count299
- (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks35
 \t@pgfplots@tokb=\toks36
 \t@pgfplots@tokc=\toks37
 \pgfplots@tmpa=\dimen279
 \c@pgfplots@coordindex=\count300
 \c@pgfplots@scanlineindex=\count301
- (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp
+_loader.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
+re.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
+reext.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.
+tex
 \c@pgfplotsarray@tmp=\count302
-) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code
+.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code
+.tex
 \c@pgfplotstable@counta=\count303
 \t@pgfplotstable@a=\toks38
-) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshadi
+ng.code.tex
 \c@pgfplotslibrarysurf@no=\count304
- (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadin
+g.pgfsys-pdftex.def)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen280
 \pgfdecoratedremainingdistance=\dimen281
 \pgfdecoratedinputsegmentcompleteddistance=\dimen282
@@ -419,7 +561,17 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfdecorationsegmentlength=\dimen286
 )
 \tikz@lib@dec@box=\box65
-) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathmorphing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathmorphing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathreplacing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathreplacing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourl
+ua.code.tex)
 \pgfplots@numplots=\count306
 \pgfplots@xmin@reg=\dimen287
 \pgfplots@xmax@reg=\dimen288
@@ -427,13 +579,19 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfplots@ymax@reg=\dimen290
 \pgfplots@zmin@reg=\dimen291
 \pgfplots@zmax@reg=\dimen292
-) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+))) (C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-08-27 L3 programming layer (loader) 
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box66
@@ -441,12 +599,15 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 Package: csvsimple 2022/09/20 v2.3.2 LaTeX CSV file processing
-) (C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
 Package: csvsimple-legacy 2022/09/20 version 2.3.2 LaTeX2e CSV file processing
- (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count308
-) (C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
@@ -455,8 +616,10 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@csvrow=\count310
 \c@csvcol=\count311
 \csv@out=\write4
-) (C:\Program Files\MiKTeX\tex/latex/filecontents\filecontents.sty
-Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaTeX document
+)
+(C:\Program Files\MiKTeX\tex/latex/filecontents\filecontents.sty
+Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
+eX document
 
 
 Package filecontents Warning: This package is obsolete. Disabling it and
@@ -471,6 +634,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks40
 \@floatcapt=\box68
 ) (memoria.aux)
+Runaway argument?
+{\contentsline {figure}{\numberline {14}{\ignorespaces 
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.18 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -487,7 +662,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
 -- Lines per column: 56 (exact).
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -504,21 +678,28 @@ LaTeX Font Info:    ... okay on input line 18.
 \everyMPtoPDFconversion=\toks42
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
  on input line 18.
 
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 PGFPlots: reading {g_sinNotch.csv}
@@ -526,96 +707,85 @@ PGFPlots: reading {g_conNotch.csv}
 <./figures//señal_sinNotch.jpeg, id=4, 1195.46625pt x 662.475pt>
 File: ./figures//señal_sinNotch.jpeg Graphic file (type jpg)
 <use ./figures//señal_sinNotch.jpeg>
-Package pdftex.def Info: ./figures//señal_sinNotch.jpeg  used on input line 90.
+Package pdftex.def Info: ./figures//señal_sinNotch.jpeg  used on input line 90
+.
 (pdftex.def)             Requested size: 232.19843pt x 128.67162pt.
 <./figures//señal_conNotch.jpeg, id=5, 1191.45125pt x 663.47874pt>
 File: ./figures//señal_conNotch.jpeg Graphic file (type jpg)
 <use ./figures//señal_conNotch.jpeg>
-Package pdftex.def Info: ./figures//señal_conNotch.jpeg  used on input line 96.
+Package pdftex.def Info: ./figures//señal_conNotch.jpeg  used on input line 96
+.
 (pdftex.def)             Requested size: 232.19843pt x 129.3019pt.
  [1{C:/Users/Sergio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
  <./figures//señal_sinNotch.jpeg>]
-<./figures//d_SINelectrodo_SINnotch.jpg, id=19, 1108.14pt x 606.265pt>
+<./figures//d_SINelectrodo_SINnotch.jpg, id=19, 1328.965pt x 713.66624pt>
 File: ./figures//d_SINelectrodo_SINnotch.jpg Graphic file (type jpg)
 <use ./figures//d_SINelectrodo_SINnotch.jpg>
-Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch.jpg  used on input line 108.
-(pdftex.def)             Requested size: 232.19843pt x 127.03262pt.
+Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch.jpg  used on input 
+line 108.
+(pdftex.def)             Requested size: 232.19843pt x 124.68655pt.
 <./figures//d_SINelectrodo_CONnotch.jpg, id=20, 1126.2075pt x 632.3625pt>
 File: ./figures//d_SINelectrodo_CONnotch.jpg Graphic file (type jpg)
 <use ./figures//d_SINelectrodo_CONnotch.jpg>
-Package pdftex.def Info: ./figures//d_SINelectrodo_CONnotch.jpg  used on input line 112.
+Package pdftex.def Info: ./figures//d_SINelectrodo_CONnotch.jpg  used on input 
+line 112.
 (pdftex.def)             Requested size: 232.19843pt x 130.37813pt.
-<./figures//d_SINelectrodo_SINnotch_mesa.jpg, id=21, 1297.84875pt x 707.64375pt>
+<./figures//d_SINelectrodo_SINnotch_mesa.jpg, id=21, 1297.84875pt x 707.64375pt
+>
 File: ./figures//d_SINelectrodo_SINnotch_mesa.jpg Graphic file (type jpg)
 <use ./figures//d_SINelectrodo_SINnotch_mesa.jpg>
-Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch_mesa.jpg  used on input line 119.
+Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch_mesa.jpg  used on i
+nput line 119.
 (pdftex.def)             Requested size: 232.19843pt x 126.60373pt.
-<./figures//d_SINelectrodo_SINnotch_aire.jpg, id=22, 1275.76625pt x 677.53125pt>
+<./figures//d_SINelectrodo_SINnotch_aire.jpg, id=22, 1275.76625pt x 677.53125pt
+>
 File: ./figures//d_SINelectrodo_SINnotch_aire.jpg Graphic file (type jpg)
 <use ./figures//d_SINelectrodo_SINnotch_aire.jpg>
-Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch_aire.jpg  used on input line 126.
+Package pdftex.def Info: ./figures//d_SINelectrodo_SINnotch_aire.jpg  used on i
+nput line 126.
 (pdftex.def)             Requested size: 232.19843pt x 123.315pt.
 <./figures//d_SinElectrodo_sintocar.jpg, id=23, 1230.5975pt x 655.44875pt>
 File: ./figures//d_SinElectrodo_sintocar.jpg Graphic file (type jpg)
 <use ./figures//d_SinElectrodo_sintocar.jpg>
-Package pdftex.def Info: ./figures//d_SinElectrodo_sintocar.jpg  used on input line 132.
+Package pdftex.def Info: ./figures//d_SinElectrodo_sintocar.jpg  used on input 
+line 132.
 (pdftex.def)             Requested size: 232.19843pt x 123.66643pt.
- [2 <./figures//señal_conNotch.jpeg> <./figures//d_SINelectrodo_SINnotch.jpg> <./figures//d_SINelectrodo_CONnotch.jpg> <./figures//d_SINelectrodo_SINnotch_mesa.jpg> <./figures//d_SINelectrodo_SINnotch_aire.jpg> <./figures//d_SinElectrodo_sintocar.jpg>]
-<./figures//e_diagramVI.png, id=27, 1240.635pt x 635.37375pt>
+<./figures//d_CONelectrodo_SINnotch.jpg, id=24, 1108.14pt x 606.265pt>
+File: ./figures//d_CONelectrodo_SINnotch.jpg Graphic file (type jpg)
+<use ./figures//d_CONelectrodo_SINnotch.jpg>
+Package pdftex.def Info: ./figures//d_CONelectrodo_SINnotch.jpg  used on input 
+line 142.
+(pdftex.def)             Requested size: 232.19843pt x 127.03262pt.
+
+[2 <./figures//señal_conNotch.jpeg> <./figures//d_SINelectrodo_SINnotch.jpg> <
+./figures//d_SINelectrodo_CONnotch.jpg> <./figures//d_SINelectrodo_SINnotch_mes
+a.jpg> <./figures//d_SINelectrodo_SINnotch_aire.jpg> <./figures//d_SinElectrodo
+_sintocar.jpg>]
+<./figures//d_CONelectrodo_CONnotch.jpg, id=28, 1071.00125pt x 603.25375pt>
+File: ./figures//d_CONelectrodo_CONnotch.jpg Graphic file (type jpg)
+<use ./figures//d_CONelectrodo_CONnotch.jpg>
+Package pdftex.def Info: ./figures//d_CONelectrodo_CONnotch.jpg  used on input 
+line 147.
+(pdftex.def)             Requested size: 232.19843pt x 130.7832pt.
+<./figures//d_CONelectrodoCONnotch_mesa.jpg, id=29, 928.97063pt x 513.41812pt>
+File: ./figures//d_CONelectrodoCONnotch_mesa.jpg Graphic file (type jpg)
+<use ./figures//d_CONelectrodoCONnotch_mesa.jpg>
+Package pdftex.def Info: ./figures//d_CONelectrodoCONnotch_mesa.jpg  used on in
+put line 154.
+(pdftex.def)             Requested size: 232.19843pt x 128.3307pt.
+<./figures//e_diagramVI.png, id=30, 1240.635pt x 635.37375pt>
 File: ./figures//e_diagramVI.png Graphic file (type png)
 <use ./figures//e_diagramVI.png>
-Package pdftex.def Info: ./figures//e_diagramVI.png  used on input line 158.
+Package pdftex.def Info: ./figures//e_diagramVI.png  used on input line 162.
 (pdftex.def)             Requested size: 232.19843pt x 118.90929pt.
-<./figures//e_captura.png, id=29, 1259.70625pt x 421.575pt>
+<./figures//e_captura.png, id=32, 1259.70625pt x 421.575pt>
 File: ./figures//e_captura.png Graphic file (type png)
 <use ./figures//e_captura.png>
-Package pdftex.def Info: ./figures//e_captura.png  used on input line 164.
+Package pdftex.def Info: ./figures//e_captura.png  used on input line 168.
 (pdftex.def)             Requested size: 232.19843pt x 77.7071pt.
 PGFPlots: reading {g_myRIO.csv}
-
-Underfull \vbox (badness 6236) has occurred while \output is active []
-
 File: ./figures//e_captura.png Graphic file (type png)
 <use ./figures//e_captura.png>
-Package pdftex.def Info: ./figures//e_captura.png  used on input line 187.
-(pdftex.def)             Requested size: 232.19843pt x 77.7071pt.
-<./figures//e_pulsometro.png, id=30, 689.57625pt x 447.6725pt>
-File: ./figures//e_pulsometro.png Graphic file (type png)
-<use ./figures//e_pulsometro.png>
-Package pdftex.def Info: ./figures//e_pulsometro.png  used on input line 198.
-(pdftex.def)             Requested size: 232.19843pt x 150.74481pt.
-
-Underfull \vbox (badness 4205) has occurred while \output is active []
-
- [3 <./figures//e_diagramVI.png> <./figures//e_captura.png>]
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[4
-
- <./figures//e_pulsometro.png>] (memoria.aux) ) 
-Here is how much of TeX's memory you used:
- 25284 strings out of 478927
- 645316 string characters out of 2862389
- 1109213 words of memory out of 3000000
- 42725 multiletter control sequences out of 15000+600000
- 439828 words of font info for 100 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 99i,12n,97p,771b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (4 pages, 2423693 bytes).
-PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdftex.def Info: ./figur
