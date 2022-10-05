@@ -46,8 +46,7 @@ Esta práctica se ha dividido en dos partes, una de ellas consiste en caracteriz
 
 \section{Amplificador de ECG}
 \subsection{Respuesta en frecuencia sin filtro notch}
-En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{desactivado}. 
-\newline
+En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{desactivado}.
 
 \begin{figure}[H]
     \begin{tikzpicture}
@@ -88,13 +87,13 @@ Podemos decir también que, observando la respuesta en frecuencia que tendría e
 Para mostrar su funcionamiento se han hecho unas capturas de pantalla al osciloscopio en el que se muestran la señal sin filtro notch y la señal con él, respectivamente.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{señal_sinNotch.jpeg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{señal_sinNotch.jpeg}}
     \caption{Señal sin el filtro notch funcionando}
     \label{s_sinNotch}
     \end{figure}
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{señal_conNotch.jpeg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{señal_conNotch.jpeg}}
     \caption{Señal con el filtro notch funcionando}
     \label{s_conNotch}
     \end{figure}
@@ -106,31 +105,31 @@ Se obvserva que la tensión pico-pico varía dependiendo de la señal que observ
 \subsubsection{Rodillas}
 Como se puede observar en las dos figuras siguientes, al conectarse el filtro, la señal resultante es mucho más limpia que sin él.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch.jpg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{d_SINelectrodo_SINnotch.jpg}}
     \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en rodillas}
     \end{figure}
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_CONnotch.jpg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{d_SINelectrodo_CONnotch.jpg}}
     \caption{D.E. I sin tercer electrodo, con filtro notch, manos en rodillas}
     \end{figure}
 
 \subsubsection{Mesa}
 Al posicionar las manos sobre la mesa y al tener el filtro desconectado, la señal resultante resulta muy ruidosa como se observa en la siguiente figura.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch_mesa.jpg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{d_SINelectrodo_SINnotch_mesa.jpg}}
     \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en mesa}
     \end{figure}
 
 \subsubsection{Aire}
 Al dejar las manos en el aire y al tener el filtro desconectado, la señal sale ruidosa, aunque menos que si reposamos las manos sobre la mesa.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch_aire.jpg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{d_SINelectrodo_SINnotch_aire.jpg}}
     \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en el aire}
     \end{figure}
 
 En los casos anteriores se estaba cerrando el circuito reposando la mano derecha sobre el conector del electrodo pero sin conectarlo. Ya que si no se cerraba el circuito haciendo contacto con éste último, la señal resultante sería nula, como se muestra en la siguiente imagen.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{d_SinElectrodo_sintocar.jpg}}
+    \centerline{\includegraphics[width=0.45\textwidth]{d_SinElectrodo_sintocar.jpg}}
     \caption{D.E. I sin tercer electrodo, sin contacto}
     \end{figure}
 
@@ -140,12 +139,12 @@ En las siguientes dos figuras se puede observar el funcionamiento de la señal c
 
 Obviamente, si se pone en funcionamiento el filtro notch, la señal se ve sin el ruido que introduce la red eléctrica, como se observa en las dos imágenes que siguen.
 %\begin{figure}[H]
-%    \centerline{\includegraphics[width=0.5\textwidth]{d_CONelectrodo_SINnotch_aire.jpg}}
+%    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_SINnotch_aire.jpg}}
 %    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en el aire}
 %    \end{figure}
 
 %\begin{figure}[H]
-%    \centerline{\includegraphics[width=0.5\textwidth]{d_CONelectrodo_CONnotch.jpeg}}
+%    \centerline{\includegraphics[width=0.45\textwidth]{d_CONelectrodo_CONnotch.jpeg}}
 %    \caption{D.E. I con tercer electrodo, con filtro notch}
 %    \end{figure}
 
@@ -156,13 +155,13 @@ En este caso, si posicionamos las manos sobre la mesa, se observa como se introd
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
 En la siguiente imagen se puede observar el diagrama de bloques del VI, la parte que está resaltada es la que inicialmente nos aparecería en el programa.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{e_diagramVI.png}}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_diagramVI.png}}
     \caption{Block diagram VI inicial}
     \end{figure}
 
 En la figura siguiente se muestra una captura de lo que es la Derivación Estándar I obtenida digitalmente mediante la myRIO y visualizada en LabVIEW.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{e_captura.png}}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_captura.png}}
     \caption{Captura D. E. I en LabVIEW}
     \end{figure}
 
@@ -185,7 +184,7 @@ Y en la siguiente gráfica, se pueden ver los datos exportados representados:
 \subsection{Detector de QRS digital}
 Para mostrar cuando se mostraba un QRS en un instante concreto para así verlo gráficamente por un led, se programó de la siguiente manera en LabVIEW:
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{e_captura.png}}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_captura.png}}
     \caption{Captura D. E. I en LabVIEW}
     \end{figure}
 
@@ -196,7 +195,7 @@ Utilizando la información que se nos proporciona, también podríamos saber las
 
 Dado que no se estaba en el laboratorio cuando se terminó de diseñar este pulsómetro, se simuló el QRS mediante una señal cuadrada con un \textit{duty-cycle} de un 10\% y la misma frecuencia que la que tendría la señal original. Aún así, el resultado sigue siendo óptimo.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.5\textwidth]{e_pulsometro.png}}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_pulsometro.png}}
     \caption{Pulsómetro en LabVIEW}
     \end{figure}
 
