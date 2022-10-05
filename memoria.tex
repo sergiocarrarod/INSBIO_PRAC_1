@@ -11,10 +11,13 @@
 \usepackage{csvsimple}
 \usepackage{tikz}
 \usepackage{filecontents}
+\usepackage{float}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
+
+\graphicspath{{./figures/}}
 
 \title{Electrogardiograma ECG}
 
@@ -46,7 +49,7 @@ Esta práctica se ha dividido en dos partes, una de ellas consiste en caracteriz
 En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{desactivado}. 
 \newline
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \begin{tikzpicture}
         \begin{axis}[xmode=log, 
             grid=both,
@@ -65,7 +68,7 @@ En esta gráfica se puede observar la respuesta plana en la banda que estamos ob
 En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{activado}.
 \newline
  
-\begin{figure}[htbp]
+\begin{figure}[H]
     \begin{tikzpicture}
         \begin{axis}[xmode=log, 
             grid=both,
@@ -86,13 +89,13 @@ Podemos decir también que, observando la respuesta en frecuencia que tendría e
 Para mostrar su funcionamiento se han hecho unas capturas de pantalla al osciloscopio en el que se muestran la señal sin filtro notch y la señal con él, respectivamente.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_sinNotch.jpeg}}
+    \centerline{\includegraphics[width=0.5\textwidth]{señal_sinNotch.jpeg}}
     \caption{Señal sin el filtro notch funcionando}
     \label{s_sinNotch}
     \end{figure}
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
+    \centerline{\includegraphics[width=0.5\textwidth]{señal_conNotch.jpeg}}
     \caption{Señal con el filtro notch funcionando}
     \label{s_conNotch}
     \end{figure}
@@ -101,36 +104,84 @@ Se obvserva que la tensión pico-pico varía dependiendo de la señal que observ
 
 \section{Derivaciones electrocardiográficas estándar}
 \subsection{Derivación estándar I sin tercer electrodo}
- 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
-    \caption{D.E. I sin filtro notch}
-    \label{s_conNotch}
+\subsubsection{Rodillas}
+Como se puede observar en las dos figuras siguientes, al conectarse el filtro, la señal resultante es mucho más limpia que sin él.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch.jpg}}
+    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en rodillas}
     \end{figure}
- 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
-    \caption{D.E. I sin filtro notch}
-    \label{s_conNotch}
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_CONnotch.jpg}}
+    \caption{D.E. I sin tercer electrodo, con filtro notch, manos en rodillas}
+    \end{figure}
+
+\subsubsection{Mesa}
+Al posicionar las manos sobre la mesa y al tener el filtro desconectado, la señal resultante resulta muy ruidosa como se observa en la siguiente figura.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch_mesa.jpg}}
+    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en mesa}
+    \end{figure}
+
+\subsubsection{Aire}
+Al dejar las manos en el aire y al tener el filtro desconectado, la señal sale ruidosa, aunque menos que si reposamos las manos sobre la mesa.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{d_SINelectrodo_SINnotch_aire.jpg}}
+    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en el aire}
+    \end{figure}
+
+En los casos anteriores se estaba cerrando el circuito reposando la mano derecha sobre el conector del electrodo pero sin conectarlo. Ya que si no se cerraba el circuito haciendo contacto con éste último, la señal resultante sería nula, como se muestra en la siguiente imagen.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{d_SinElectrodo_sintocar.jpg}}
+    \caption{D.E. I sin tercer electrodo, sin contacto}
     \end{figure}
 
 \subsection{Derivación estándar I con tercer electrodo}
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
-    \caption{Señal con el filtro notch funcionando}
-    \label{s_conNotch}
-    \end{figure}
+\subsubsection{Rodillas}
+En las siguientes dos figuras se puede observar el funcionamiento de la señal con el tercer electrodo, se puede observar que la señal es algo más clara que si no utilizamos electrodo, pues la resistencia entre el conector y la piel es menor si se hace uso del electrodo.
+Obviamente, si se pone en funcionamiento el filtro notch, la señal se ve sin el ruido que introduce la red eléctrica, como se observa en las dos imágenes que siguen.
+%\begin{figure}[H]
+%    \centerline{\includegraphics[width=0.5\textwidth]{d_CONelectrodo_SINnotch_aire.jpg}}
+%    \caption{D.E. I sin tercer electrodo, sin filtro notch, manos en el aire}
+%    \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.5\textwidth]{./figures/señal_conNotch.jpeg}}
-    \caption{Señal con el filtro notch funcionando}
-    \label{s_conNotch}
-    \end{figure}
+%\begin{figure}[H]
+%    \centerline{\includegraphics[width=0.5\textwidth]{d_CONelectrodo_CONnotch.jpeg}}
+%    \caption{D.E. I con tercer electrodo, con filtro notch}
+%    \end{figure}
+
+\subsubsection{Mesa}
+En este caso, si posicionamos las manos sobre la mesa, se observa como se introduce algo de ruido aún teniendo conectado el filtro notch.
+\subsubsection{Aire}
     
 \section{Sistema de adquisición de señales electrocardiográficas}
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
+En la siguiente imagen se puede observar el diagrama de bloques del VI, la parte que está resaltada es la que inicialmente nos aparecería en el programa.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{e_diagramVI.png}}
+    \caption{Block diagram VI inicial}
+    \end{figure}
+
+En la figura siguiente se muestra una captura de lo que es la Derivación Estándar I obtenida digitalmente mediante la myRIO y visualizada en LabVIEW.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{e_captura.png}}
+    \caption{Captura D. E. I en LabVIEW}
+    \end{figure}
 
 \subsection{Exportación de señales adquiridas}
+Las 20 primeras líneas se adjuntan al final de este documento, son los valores fruto de la exportación de los datos a un documento Excel.
+Y en la siguiente gráfica, se pueden ver los datos exportados representados:
+\begin{figure}[H]
+    \begin{tikzpicture}
+        \begin{axis}[
+            grid=both,
+            xlabel={Muestra},
+            ylabel={V (V)}]
+        \addplot table [x=x, y=y, col sep=comma] {g_myRIO.csv};
+        \end{axis}
+        \end{tikzpicture}
+    \caption{Señal de la D. E. I, obtenida con myRIO}
+    \label{g_myRIO}
+    \end{figure}
 
 \subsection{Detector de QRS digital}
 
