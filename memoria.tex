@@ -55,7 +55,7 @@ En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal 
             grid=both,
             xlabel={$f$ (Hz)},
             ylabel={G (dB)}]
-        \addplot table [x=f, y=g, col sep=comma] {g_sinNotch.csv};
+        \addplot+[mark size=1pt] table [x=f, y=g, col sep=comma] {g_sinNotch.csv};
         \end{axis}
         \end{tikzpicture}
     \caption{Ganancia sin filtro notch}
@@ -66,7 +66,6 @@ En esta gráfica se puede observar la respuesta plana en la banda que estamos ob
 
 \subsection{Respuesta en frecuencia con filtro notch}
 En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal conforme va variando la frecuencia. En este caso el filtro noctch está \textit{activado}.
-\newline
  
 \begin{figure}[H]
     \begin{tikzpicture}
@@ -74,7 +73,7 @@ En la gráfica siguiente se muestra la tensión pico-pico $V_{pp}$ de la señal 
             grid=both,
             xlabel={$f$ (Hz)},
             ylabel={G (dB)}]
-        \addplot table [x=f, y=g, col sep=comma] {g_conNotch.csv};
+        \addplot+[mark size=1pt] table [x=f, y=g, col sep=comma] {g_conNotch.csv};
         \end{axis}
         \end{tikzpicture}
     \caption{Ganancia con filtro notch}
@@ -138,6 +137,7 @@ En los casos anteriores se estaba cerrando el circuito reposando la mano derecha
 \subsection{Derivación estándar I con tercer electrodo}
 \subsubsection{Rodillas}
 En las siguientes dos figuras se puede observar el funcionamiento de la señal con el tercer electrodo, se puede observar que la señal es algo más clara que si no utilizamos electrodo, pues la resistencia entre el conector y la piel es menor si se hace uso del electrodo.
+
 Obviamente, si se pone en funcionamiento el filtro notch, la señal se ve sin el ruido que introduce la red eléctrica, como se observa en las dos imágenes que siguen.
 %\begin{figure}[H]
 %    \centerline{\includegraphics[width=0.5\textwidth]{d_CONelectrodo_SINnotch_aire.jpg}}
@@ -151,7 +151,6 @@ Obviamente, si se pone en funcionamiento el filtro notch, la señal se ve sin el
 
 \subsubsection{Mesa}
 En este caso, si posicionamos las manos sobre la mesa, se observa como se introduce algo de ruido aún teniendo conectado el filtro notch.
-\subsubsection{Aire}
     
 \section{Sistema de adquisición de señales electrocardiográficas}
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
@@ -176,7 +175,7 @@ Y en la siguiente gráfica, se pueden ver los datos exportados representados:
             grid=both,
             xlabel={Muestra},
             ylabel={V (V)}]
-        \addplot table [x=x, y=y, col sep=comma] {g_myRIO.csv};
+        \addplot+[mark=none] table [x=x, y=y, col sep=comma] {g_myRIO.csv};
         \end{axis}
         \end{tikzpicture}
     \caption{Señal de la D. E. I, obtenida con myRIO}
@@ -184,8 +183,22 @@ Y en la siguiente gráfica, se pueden ver los datos exportados representados:
     \end{figure}
 
 \subsection{Detector de QRS digital}
+Para mostrar cuando se mostraba un QRS en un instante concreto para así verlo gráficamente por un led, se programó de la siguiente manera en LabVIEW:
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{e_captura.png}}
+    \caption{Captura D. E. I en LabVIEW}
+    \end{figure}
+
+De manera que cuando la señal supera el nivel de umbral que le hemos configurado y que se puede modificar cuando el programa está en ejecución, se encienda un LED llamado QRS.
 
 \subsection{Pulsómetro}
+Utilizando la información que se nos proporciona, también podríamos saber las pulsaciones por minuto (bpm) sabiendo el intervalo de tiempo que hay entre dos picos del QRS. Haciendo la inversa y multiplicando por el factor oportuno se obtienen las pulsaciones por minuto.
+
+Dado que no se estaba en el laboratorio cuando se terminó de diseñar este pulsómetro, se simuló el QRS mediante una señal cuadrada con un \textit{duty-cycle} de un 10\% y la misma frecuencia que la que tendría la señal original. Aún así, el resultado sigue siendo óptimo.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.5\textwidth]{e_pulsometro.png}}
+    \caption{Pulsómetro en LabVIEW}
+    \end{figure}
 
 
 \end{document}
