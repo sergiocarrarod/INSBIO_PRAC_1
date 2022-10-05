@@ -159,7 +159,7 @@ En este caso, si posicionamos las manos sobre la mesa, se observa como se introd
 \subsection{Adquisición de derivaciones electrocardiográficas estándar}
 En la siguiente imagen se puede observar el diagrama de bloques del VI, la parte que está resaltada es la que inicialmente nos aparecería en el programa.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.45\textwidth]{e_diagramVI.png}}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_diagramVI_inicial.png}}
     \caption{Block diagram VI inicial}
     \end{figure}
 
@@ -188,8 +188,8 @@ Y en la siguiente gráfica, se pueden ver los datos exportados representados:
 \subsection{Detector de QRS digital}
 Para mostrar cuando se mostraba un QRS en un instante concreto para así verlo gráficamente por un led, se programó de la siguiente manera en LabVIEW:
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.45\textwidth]{e_captura.png}}
-    \caption{Captura D. E. I en LabVIEW}
+    \centerline{\includegraphics[width=0.45\textwidth]{e_diagramVI_QRS.png}}
+    \caption{B}
     \end{figure}
 
 De manera que cuando la señal supera el nivel de umbral que le hemos configurado y que se puede modificar cuando el programa está en ejecución, se encienda un LED llamado QRS.
@@ -200,6 +200,12 @@ Utilizando la información que se nos proporciona, también podríamos saber las
 Dado que no se estaba en el laboratorio cuando se terminó de diseñar este pulsómetro, se simuló el QRS mediante una señal cuadrada con un \textit{duty-cycle} de un 10\% y la misma frecuencia que la que tendría la señal original. Aún así, el resultado sigue siendo óptimo.
 \begin{figure}[H]
     \centerline{\includegraphics[width=0.45\textwidth]{e_pulsometro.png}}
+    \caption{Pulsómetro en LabVIEW}
+    \end{figure}
+
+En la siguiente figura se puede ver el diagrama de bloques completo del VI.
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.45\textwidth]{e_diagramVI.png}}
     \caption{Pulsómetro en LabVIEW}
     \end{figure}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  5 OCT 2022 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.27)  5 OCT 2022 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -582,27 +582,33 @@ File: ./figures//d_CONelectrodoCONnotch_mesa.jpg Graphic file (type jpg)
 <use ./figures//d_CONelectrodoCONnotch_mesa.jpg>
 Package pdftex.def Info: ./figures//d_CONelectrodoCONnotch_mesa.jpg  used on input line 154.
 (pdftex.def)             Requested size: 232.19843pt x 128.3307pt.
-<./figures//e_diagramVI.png, id=31, 1240.635pt x 635.37375pt>
-File: ./figures//e_diagramVI.png Graphic file (type png)
-<use ./figures//e_diagramVI.png>
-Package pdftex.def Info: ./figures//e_diagramVI.png  used on input line 162.
-(pdftex.def)             Requested size: 232.19843pt x 118.90929pt.
+<./figures//e_diagramVI_inicial.png, id=31, 613.79312pt x 297.11pt>
+File: ./figures//e_diagramVI_inicial.png Graphic file (type png)
+<use ./figures//e_diagramVI_inicial.png>
+Package pdftex.def Info: ./figures//e_diagramVI_inicial.png  used on input line 162.
+(pdftex.def)             Requested size: 232.19843pt x 112.3952pt.
 <./figures//e_captura.png, id=33, 1259.70625pt x 421.575pt>
 File: ./figures//e_captura.png Graphic file (type png)
 <use ./figures//e_captura.png>
 Package pdftex.def Info: ./figures//e_captura.png  used on input line 168.
 (pdftex.def)             Requested size: 232.19843pt x 77.7071pt.
 PGFPlots: reading {g_myRIO.csv}
-File: ./figures//e_captura.png Graphic file (type png)
-<use ./figures//e_captura.png>
-Package pdftex.def Info: ./figures//e_captura.png  used on input line 191.
-(pdftex.def)             Requested size: 232.19843pt x 77.7071pt.
- [3 <./figures//d_CONelectrodo_SINnotch.jpg> <./figures//d_CONelectrodo_CONnotch.jpg> <./figures//d_CONelectrodoCONnotch_mesa.jpg> <./figures//e_diagramVI.png> <./figures//e_captura.png>]
-<./figures//e_pulsometro.png, id=39, 689.57625pt x 447.6725pt>
+<./figures//e_diagramVI_QRS.png, id=34, 613.79312pt x 297.11pt>
+File: ./figures//e_diagramVI_QRS.png Graphic file (type png)
+<use ./figures//e_diagramVI_QRS.png>
+Package pdftex.def Info: ./figures//e_diagramVI_QRS.png  used on input line 191.
+(pdftex.def)             Requested size: 232.19843pt x 112.3952pt.
+ [3 <./figures//d_CONelectrodo_SINnotch.jpg> <./figures//d_CONelectrodo_CONnotch.jpg> <./figures//d_CONelectrodoCONnotch_mesa.jpg> <./figures//e_diagramVI_inicial.png> <./figures//e_captura.png>]
+<./figures//e_pulsometro.png, id=40, 689.57625pt x 447.6725pt>
 File: ./figures//e_pulsometro.png Graphic file (type png)
 <use ./figures//e_pulsometro.png>
 Package pdftex.def Info: ./figures//e_pulsometro.png  used on input line 202.
 (pdftex.def)             Requested size: 232.19843pt x 150.74481pt.
+<./figures//e_diagramVI.png, id=41, 1240.635pt x 635.37375pt>
+File: ./figures//e_diagramVI.png Graphic file (type png)
+<use ./figures//e_diagramVI.png>
+Package pdftex.def Info: ./figures//e_diagramVI.png  used on input line 208.
+(pdftex.def)             Requested size: 232.19843pt x 118.90929pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -618,20 +624,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./figures//e_pulsometro.png>] (./memoria.aux) ) 
+[4 <./figures//e_diagramVI_QRS.png> <./figures//e_pulsometro.png> <./figures//e_diagramVI.png>] (./memoria.aux) ) 
 Here is how much of TeX's memory you used:
- 25697 strings out of 478268
- 663711 string characters out of 5846347
- 1108697 words of memory out of 5000000
- 43481 multiletter control sequences out of 15000+600000
+ 25713 strings out of 478268
+ 664265 string characters out of 5846347
+ 1108693 words of memory out of 5000000
+ 43495 multiletter control sequences out of 15000+600000
  510676 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,768b,1938s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria.pdf (4 pages, 3151120 bytes).
+Output written on memoria.pdf (4 pages, 3479817 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

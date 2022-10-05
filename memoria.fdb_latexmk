@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1664995238 "/Users/sergio/Desktop/INSBIO/INSBIO_PRAC_1/memoria.tex" "memoria.pdf" "memoria" 1664995241
-  "/Users/sergio/Desktop/INSBIO/INSBIO_PRAC_1/memoria.tex" 1664995234 11826 553a16d4b95aa79811b2ae5375ab436f ""
+["pdflatex"] 1664996398 "/Users/sergio/Desktop/INSBIO/INSBIO_PRAC_1/memoria.tex" "memoria.pdf" "memoria" 1664996406
+  "/Users/sergio/Desktop/INSBIO/INSBIO_PRAC_1/memoria.tex" 1664996394 12037 52ef4295832ecfa18b3b010a6053c366 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -198,14 +198,16 @@
   "figures//d_SinElectrodo_sintocar.jpg" 1664963721 105719 a40595c8bacd34a1324178ca64db29ad ""
   "figures//e_captura.png" 1664962536 635893 ef361eedcbe965feb1ced64c0ee0b53c ""
   "figures//e_diagramVI.png" 1664961970 690730 163ba8e6adcf52b387e91fa8243f2785 ""
+  "figures//e_diagramVI_QRS.png" 1664996030 218781 aa9c03b1c18aa2f273da916f58525403 ""
+  "figures//e_diagramVI_inicial.png" 1664996379 210997 0bd7be878bc11f20949d87311f184edd ""
   "figures//e_pulsometro.png" 1664964627 331455 744aa0504c2449bb1a07919ca2224cdf ""
   "figures//señal_conNotch.jpeg" 1664799534 296453 5757f6a55838e86c64cc56cf57f60b44 ""
   "figures//señal_sinNotch.jpeg" 1664799594 294555 9b355017f9083415418c7327d5f62bb0 ""
   "g_conNotch.csv" 1664818956 408 e9102783c5132caac1e283190edb6c8c ""
   "g_myRIO.csv" 1664963580 4619 a061eb68f1a9939e71e46085045b1164 ""
   "g_sinNotch.csv" 1664818222 325 b5780addd9f62393f25f2979ec27078a ""
-  "memoria.aux" 1664995241 5108 4109e7a87a3726a26a31e9058a3375fb "pdflatex"
-  "memoria.tex" 1664995234 11826 553a16d4b95aa79811b2ae5375ab436f ""
+  "memoria.aux" 1664996406 5209 96f78754b4cc257b81c7cb0c6d019b67 "pdflatex"
+  "memoria.tex" 1664996394 12037 52ef4295832ecfa18b3b010a6053c366 ""
   (generated)
   "memoria.aux"
   "memoria.log"
